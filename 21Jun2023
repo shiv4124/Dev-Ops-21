@@ -36,6 +36,7 @@ git add *.text
 
 git commit -m "message name"
 
+git log – provides several formatting options for exploring previous revisions of a project
 
 git -ls
 
