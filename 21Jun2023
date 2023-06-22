@@ -1,0 +1,77 @@
+#########################22 Jun 2022
+to download git on local machine
+
+https://git-scm.com/downloads
+
+git inti -> intialize git repository
+
+Local Repo                                                                                        
+
+working                           staging/index                           Local Repp
+
+file.text ---git add file.text    file.text  ---git commit -m "messag"    file.text
+
+
+git add – moves changes from the working directory into the staging area
+git add – moves changes from the working directory into the staging area
+
+
+git config --global user.name "shiv4124"
+git config --global user.email "shiv4124@gmail.com"
+
+
+
+git config  user.name "shiv4124"
+git config  user.email "shiv4124@gmail.com"
+
+git add .
+git add <file_name>
+git add *.text
+
+git commit -m "message name"
+
+
+git -ls
+
+git diff  -> untracked and commited files
+
+git diff --cached
+
+
+git reset and revert
+
+
+
+soft    -> file move into staging
+mixed   -> file will move into working dir
+hard	-> file completely will delete
+
+commands
+
+git reset --soft <commit_id>(HEAD-1)
+
+
+git reset
+$ git log --oneline
+b11d035 (HEAD -> master) cm4
+f4af223 cm3
+93bf97b new files added
+4d19dd5 commit 1
+
+
+GS-2428@gs-5650 MINGW64 ~/DEVOPSSESSION/samplerepo/samplerepo2 (master)
+$ git log --oneline
+72502d0 (HEAD -> master) Revert "cm4:revert"
+b45817f cm4
+69af852 new file added
+93bf97b new files added
+4d19dd5 commit 1
+
+
+
+git reset and revert
+reset --> new commit will not happed
+revert -> new commit will happen
+
+
+git rever <commit_id>
