@@ -81,4 +81,4 @@ reset --> new commit will not happed
 revert -> new commit will happen
 
 
-git rever <commit_id>
+git revert <commit_id>
