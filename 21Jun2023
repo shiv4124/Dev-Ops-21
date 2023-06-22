@@ -13,11 +13,17 @@ file.text ---git add file.text    file.text  ---git commit -m "messag"    file.t
 
 
 git add – moves changes from the working directory into the staging area
-git add – moves changes from the working directory into the staging area
+git commit – commits the current version of the project into the project history
 
 
+
+to config to all repository
 git config --global user.name "shiv4124"
 git config --global user.email "shiv4124@gmail.com"
+
+to config to specific repository
+git config  user.name "shiv4124"
+git config  user.email "shiv4124@gmail.com"
 
 
 
